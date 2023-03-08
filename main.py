@@ -10,7 +10,7 @@ executable_path= '' # path to your chromedriver
 driver = webdriver.Chrome(executable_path)
 
 # navigate to the page
-driver.get("https://mohph197.github.io/web-scraping-workshop")
+driver.get("https://mohph197.github.io/web-scraping-workshop/task1.html")
 
 # click on the download button
 driver.find_element(By.CSS_SELECTOR, "#downloadButton").click()
